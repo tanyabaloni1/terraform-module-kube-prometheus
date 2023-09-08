@@ -78,7 +78,7 @@ resource "helm_release" "kube-prometheus" {
 
   name       = var.stack_name
   namespace  = var.namespace    
-  repository = "https://github.com/tanyabaloni1/helm-chart-ttn/main"
+  repository = "https://github.com/tanyabaloni1/helm-chart-ttn/"
   chart      = "kube-prometheus-stack"
 
   set {
